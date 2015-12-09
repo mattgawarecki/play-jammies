@@ -1,0 +1,7 @@
+# IntelliJ IDEA project files
+.idea/
+
+# Auto-generated/binary project files
+project/project/
+project/target/
+target/
