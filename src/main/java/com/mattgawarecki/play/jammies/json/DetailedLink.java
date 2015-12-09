@@ -1,4 +1,4 @@
-package com.mattgawarecki.play.json;
+package com.mattgawarecki.play.jammies.json;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;

@@ -1,8 +1,8 @@
-package com.mattgawarecki.play.http;
+package com.mattgawarecki.play.jammies.http;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.node.ObjectNode;
-import com.mattgawarecki.play.json.JsonApiError;
+import com.mattgawarecki.play.jammies.json.JsonApiError;
 import play.libs.F;
 import play.libs.Json;
 import play.mvc.Http;

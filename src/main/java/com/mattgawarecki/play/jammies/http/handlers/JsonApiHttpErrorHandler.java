@@ -1,6 +1,6 @@
-package com.mattgawarecki.play.http.handlers;
+package com.mattgawarecki.play.jammies.http.handlers;
 
-import com.mattgawarecki.play.http.JsonApiErrorResponse;
+import com.mattgawarecki.play.jammies.http.JsonApiErrorResponse;
 import play.Configuration;
 import play.Environment;
 import play.api.OptionalSourceMapper;

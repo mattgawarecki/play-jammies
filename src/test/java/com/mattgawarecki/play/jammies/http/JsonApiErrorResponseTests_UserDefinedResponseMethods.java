@@ -1,9 +1,9 @@
-package com.mattgawarecki.play.http;
+package com.mattgawarecki.play.jammies.http;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.mattgawarecki.play.json.JsonApiError;
-import com.mattgawarecki.play.json.SimpleLink;
+import com.mattgawarecki.play.jammies.json.JsonApiError;
+import com.mattgawarecki.play.jammies.json.SimpleLink;
 import org.assertj.core.api.SoftAssertions;
 import org.junit.Before;
 import org.junit.Test;

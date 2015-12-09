@@ -1,4 +1,4 @@
-package com.mattgawarecki.play.http;
+package com.mattgawarecki.play.jammies.http;
 
 import org.assertj.core.api.SoftAssertions;
 import org.junit.After;
