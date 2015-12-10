@@ -1,8 +1,8 @@
-name := "play-jsonapi-errorhandler"
+name := "play-jammies"
 
 version := "1.0"
 
-scalaVersion := "2.11.7"
+scalaVersion := "2.11.6"
 
 libraryDependencies ++= Seq(
   "com.typesafe.play" % "play_2.11"               % "2.4.4",

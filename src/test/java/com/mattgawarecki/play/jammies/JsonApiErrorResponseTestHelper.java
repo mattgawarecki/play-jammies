@@ -1,4 +1,4 @@
-package com.mattgawarecki.play.jammies.http;
+package com.mattgawarecki.play.jammies;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import org.assertj.core.api.SoftAssertions;
@@ -50,10 +50,6 @@ public class JsonApiErrorResponseTestHelper {
 
     public void assertAll() {
         softly.assertAll();
-    }
-
-    public List<Result> redeemPromises(final F.Promise<Result>... promises) {
-        return Arrays.stream(promises).map(p -> p.get(0)).collect(Collectors.toList());
     }
 
     public JsonNode getResultJson(final Result result) {

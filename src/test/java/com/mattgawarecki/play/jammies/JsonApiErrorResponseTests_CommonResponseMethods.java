@@ -1,4 +1,4 @@
-package com.mattgawarecki.play.jammies.http;
+package com.mattgawarecki.play.jammies;
 
 import org.assertj.core.api.SoftAssertions;
 import org.junit.After;
@@ -6,7 +6,6 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import play.libs.F;
 import play.mvc.Http;
 import play.mvc.Result;
 
@@ -56,10 +55,10 @@ public class JsonApiErrorResponseTests_CommonResponseMethods {
     public JsonApiErrorResponseTests_CommonResponseMethods(final int expectedStatusCode,
                                                            final String expectedTitle,
                                                            final String expectedDefaultDetail,
-                                                           final F.Promise<Result> defaultResultPromiseGetter,
-                                                           final F.Promise<Result> customDetailResultPromiseGetter) {
-        this.resultWithDefaultDetail = defaultResultPromiseGetter.get(0);
-        this.resultWithCustomDetail = customDetailResultPromiseGetter.get(0);
+                                                           final Result defaultResult,
+                                                           final Result customDetailResult) {
+        this.resultWithDefaultDetail = defaultResult;
+        this.resultWithCustomDetail = customDetailResult;
         this.testedResults = Arrays.asList(this.resultWithDefaultDetail, this.resultWithCustomDetail);
 
         this.expectedStatusCode = expectedStatusCode;

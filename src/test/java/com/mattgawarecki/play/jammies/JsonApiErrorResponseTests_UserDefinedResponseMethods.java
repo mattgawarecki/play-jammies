@@ -1,4 +1,4 @@
-package com.mattgawarecki.play.jammies.http;
+package com.mattgawarecki.play.jammies;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -32,8 +32,7 @@ public class JsonApiErrorResponseTests_UserDefinedResponseMethods {
     public void init() {
         helper = new JsonApiErrorResponseTestHelper(new SoftAssertions());
         quickErrorResult =
-            JsonApiErrorResponse.status(quickErrorResponseStatus, quickErrorResponseTitle, quickErrorResponseDetail)
-                                .get(0);
+            JsonApiErrorResponse.status(quickErrorResponseStatus, quickErrorResponseTitle, quickErrorResponseDetail);
 
         fullError = new JsonApiError();
         // Set this differently than {fullErrorHttpStatusCode} to show the body and the response status are not
@@ -41,7 +40,7 @@ public class JsonApiErrorResponseTests_UserDefinedResponseMethods {
         fullError.setStatus(404);
         fullError.meta().put("is_full_error", true);
         fullError.links().add(new SimpleLink("full_error_link"));
-        fullErrorResult = JsonApiErrorResponse.status(fullErrorHttpStatusCode, fullError).get(0);
+        fullErrorResult = JsonApiErrorResponse.status(fullErrorHttpStatusCode, fullError);
 
         testedResults = Arrays.asList(quickErrorResult, fullErrorResult);
     }
