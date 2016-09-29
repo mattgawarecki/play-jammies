@@ -8,7 +8,7 @@
 
   <description>A JSON API-compliant HTTP error handler for Play! 2.4.x</description>
   <version>1.0.0-SNAPSHOT</version>
-  <name>Jammies</name>
+  <name>com.mattgawarecki.play:jammies</name>
   <url>https://github.com/mattgawarecki/play-jammies</url>
   <licenses>
     <license>
