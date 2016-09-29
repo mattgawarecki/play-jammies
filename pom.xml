@@ -4,12 +4,13 @@
 
   <groupId>com.mattgawarecki.play</groupId>
   <artifactId>jammies</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <description>A JSON API-compliant HTTP error handler for Play! 2.4.x</description>
-  <version>1.0.0-SNAPSHOT</version>
   <name>com.mattgawarecki.play:jammies</name>
+  <description>A JSON API-compliant HTTP error handler for Play! 2.4.x</description>
   <url>https://github.com/mattgawarecki/play-jammies</url>
+
   <licenses>
     <license>
       <name>MIT License</name>
