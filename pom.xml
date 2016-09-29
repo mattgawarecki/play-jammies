@@ -27,6 +27,7 @@
   <scm>
     <connection>scm:git:git://github.com/mattgawarecki/play-jammies.git</connection>
     <developerConnection>scm:git:https://github.com/mattgawarecki/play-jammies.git</developerConnection>
+    <url>http://github.com/mattgawarecki/play-jammies/tree/master</url>
   </scm>
 
   <distributionManagement>
