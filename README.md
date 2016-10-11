@@ -31,7 +31,7 @@ The first entry goes in your project's ```build.sbt``` file, inside the ```libra
         // (... some more dependencies, maybe ...)
     )
 
-**NOTE:** ```latest.stable``` in the example above indicates that the latest stable version of Jammies should be downloaded. If you want to use a different version, please feel free to change this value. For a list of all versions, visit [Jammies at the Central Maven Repository]().
+**NOTE:** ```latest.stable``` in the example above indicates that the latest stable version of Jammies should be downloaded. If you want to use a different version, please feel free to change this value. For a list of all versions, visit [Jammies at the Central Maven Repository](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22jammies%22).
 
 The second entry should be added to your application's ```conf/application.conf``` file. This entry tells Play! to use Jammies whenever an error occurs:
 
